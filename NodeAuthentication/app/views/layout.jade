@@ -1,0 +1,22 @@
+block vars
+doctype html
+html
+	head
+		meta(charset='UTF-8')
+		meta(name='viewport', content='width=device-width')
+		title Authentication | #{title}
+		block css
+			link(rel='stylesheet', href='/css/bootstrap/css/bootstrap.css')
+			link(rel='stylesheet', href='/css/style.css')
+	body
+		section.menu-section
+			div.container
+				div.row
+					div.col-md-12
+						img(src='/img/logo.png')
+		div.container
+			div.content-wrapper
+				block body
+		block script
+			script(src='/js/jquery.js')
+			script(src='/js/bootstrap/bootstrap.js')

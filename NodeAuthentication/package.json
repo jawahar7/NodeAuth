@@ -1,0 +1,24 @@
+{
+  "name": "nodeauth",
+  "version": "1.0.0",
+  "description": "Node Authentication",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "body-parser": "^1.14.2",
+    "client-sessions": "^0.7.0",
+    "connect-flash": "^0.1.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "jade": "^1.11.0",
+    "mongoose": "^4.4.3",
+    "glob": "^6.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jawahar",
+  "license": "MIT"
+}
